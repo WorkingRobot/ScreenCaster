@@ -1,7 +1,8 @@
 import win32gui, win32ui, win32con
+from win32api import GetSystemMetrics
 
 windowname = "missingno"
-w, h = 9000, 9000
+w, h = GetSystemMetrics(0), GetSystemMetrics(1)
 bmpfilename = "magic.bmp"
 
 hwnd = win32gui.FindWindow(None, windowname)
