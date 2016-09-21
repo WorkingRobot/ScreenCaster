@@ -4,7 +4,7 @@ from time import time
 
 windowname = "missingno"
 w, h = GetSystemMetrics(0), GetSystemMetrics(1)
-images = 20
+images = 10
 
 for i in range(images):
     hwnd = win32gui.FindWindow(None, windowname)
