@@ -4,7 +4,7 @@ from time import time
 
 windowname = "missingno"
 w, h = GetSystemMetrics(0), GetSystemMetrics(1)
-images = 100
+images = 200
 preimage = 0
 av_sum = 0
 average = 0
@@ -38,8 +38,8 @@ for i in range(images):
         getaverage(time()-preimage)
     preimage = time()
 print(time() - starttime)
-print("ffmpeg -y -f image2 -r %d -i %%d.bmp -vcodec libx264 -crf 18 video.mp4" % (int(1/average)))
-os.system("ffmpeg -y -f image2 -r %d -i %%d.bmp -vcodec libx264 -crf 18 video.mp4" % (int(1/average)))
+print("ffmpeg -y -f image2 -r %d -i %%d.bmp -vcodec libx264 -crf 0 video.mp4" % (int(1/average)))
+os.system("ffmpeg -y -f image2 -r %d -i %%d.bmp -vcodec libx264 -crf 0 video.mp4" % (int(1/average)))
 dcObj.DeleteDC()
 
 win32gui.ReleaseDC(hwnd, wDC)
