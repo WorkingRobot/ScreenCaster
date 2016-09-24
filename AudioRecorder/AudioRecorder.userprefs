@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{F17F8462-8E91-4F99-97C1-3F24EB9EB1E2}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="AudioRecorder\FodyWeavers.xml">
+    <Files>
+      <File FileName="AudioRecorder\Program.cs" Line="32" Column="4" />
+      <File FileName="AudioRecorder\AudioRecorder.csproj" Line="1" Column="1" />
+      <File FileName="AudioRecorder\FodyWeavers.xml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Option id="ShowVersionControlOverlays" value="False" />
+          <Node name="AudioRecorder" expanded="True">
+            <Node name="AudioRecorder" expanded="True">
+              <Node name="References" expanded="True">
+                <Node name="From Packages" expanded="True" />
+              </Node>
+              <Node name="Packages" expanded="True" />
+              <Node name="FodyWeavers.xml" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AudioRecorder PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

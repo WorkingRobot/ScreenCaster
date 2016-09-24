@@ -1,0 +1,7 @@
+C:\Users\Aleks\Dropbox\CODING\Screencast\ScreenCaster\AudioRecorder\AudioRecorder\bin\Debug\AudioRecorder.exe
+C:\Users\Aleks\Dropbox\CODING\Screencast\ScreenCaster\AudioRecorder\AudioRecorder\bin\Debug\AudioRecorder.pdb
+C:\Users\Aleks\Dropbox\CODING\Screencast\ScreenCaster\AudioRecorder\AudioRecorder\bin\Debug\NAudio.dll
+C:\Users\Aleks\Dropbox\CODING\Screencast\ScreenCaster\AudioRecorder\AudioRecorder\bin\Debug\NAudio.Lame.dll
+C:\Users\Aleks\Dropbox\CODING\Screencast\ScreenCaster\AudioRecorder\AudioRecorder\bin\Debug\NAudio.xml
+C:\Users\Aleks\Dropbox\CODING\Screencast\ScreenCaster\AudioRecorder\AudioRecorder\obj\x86\Debug\AudioRecorder.exe
+C:\Users\Aleks\Dropbox\CODING\Screencast\ScreenCaster\AudioRecorder\AudioRecorder\obj\x86\Debug\AudioRecorder.pdb

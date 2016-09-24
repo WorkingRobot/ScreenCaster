@@ -38,8 +38,8 @@ for i in range(images):
         getaverage(time()-preimage)
     preimage = time()
 print(time() - starttime)
-print("ffmpeg -y -f image2 -r %d -i %%d.bmp -vcodec libx264 -crf 0 video.mp4" % (int(1/average)))
-os.system("ffmpeg -y -f image2 -r %d -i %%d.bmp -vcodec libx264 -crf 0 video.mp4" % (int(1/average)))
+print("ffmpeg -y -f image2 -r %d -i %%d.bmp -vcodec libx264 -crf 0 video.gif" % (int(1/average)))
+os.system("ffmpeg -y -f image2 -r %d -i %%d.bmp -crf 0 video.gif" % (int(1/average)))
 dcObj.DeleteDC()
 
 win32gui.ReleaseDC(hwnd, wDC)
